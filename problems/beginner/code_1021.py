@@ -1,6 +1,7 @@
 """
 Problem 1021 with python
 """
+
 X = float(input())
 
 if 1000000 < X > 0:
