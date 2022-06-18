@@ -1,3 +1,6 @@
+"""
+Problem 1006 with python
+"""
 A = float(input(""))
 B = float(input(""))
 C = float(input(""))
