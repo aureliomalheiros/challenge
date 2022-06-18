@@ -69,3 +69,4 @@ if 1000000 < X > 0:
     print(f'{int(X010)} moeda(s) de R$ 0.10')
     print(f'{int(X005)} moeda(s) de R$ 0.05')
     print(f'{int(X001)} moeda(s) de R$ 0.01')
+    
