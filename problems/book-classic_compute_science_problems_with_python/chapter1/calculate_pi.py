@@ -16,4 +16,3 @@ def calculate_pin(n_terms: int) -> int:
 
 if __name__ == "__main__":
     print(calculate_pin(1000000))
-    
