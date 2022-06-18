@@ -1,3 +1,6 @@
+"""
+Problem 1020 with python
+"""
 n = int(input())
 
 #years
@@ -9,6 +12,6 @@ n = n - months*30
 #days
 days = n
 
-print('{} ano(s)'.format(years))
-print('{} mes(es)'.format(months))
-print('{} dia(s)'.format(days))
+print(f'{years} ano(s)')
+print('{months} mes(es)')
+print('{days} dia(s)')

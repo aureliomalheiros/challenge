@@ -1,3 +1,6 @@
+"""
+Problem 1035 with python
+"""
 line = input("")
 line_break = line.split(" ")
 
@@ -10,3 +13,4 @@ if(B > C and D > A and (C+D) > (A + B) and C > 0 and B > 0 and (A % 2) == 0):
     print("Valores aceitos")
 else:
     print("Valores nao aceitos")
+    

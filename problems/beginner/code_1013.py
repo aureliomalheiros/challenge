@@ -1,5 +1,6 @@
-#from math import abs
-import math
+"""
+Problem 1013 with python
+"""
 line  = input("")
 line_part = line.split(" ")
 
@@ -9,5 +10,5 @@ c = int(line_part[2])
 
 max_AB = (a + b + abs(a - b))/2
 max_result = (max_AB + c + abs(max_AB - c))/2
-
-print("%d eh o maior" %max_result)
+RESULT = f'{max_result} eh maior'
+print(RESULT)

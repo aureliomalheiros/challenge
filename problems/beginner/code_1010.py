@@ -1,3 +1,6 @@
+"""
+Problem 1010 with python
+"""
 line1 = input("")
 line2 = input("")
 
@@ -12,7 +15,6 @@ d = int(line_part2[0])
 e = int(line_part2[1])
 f = float(line_part2[2])
 
-result = b*c + e*f
+result = f'VALOR A PAGAR: R$ {b*c + e*f:.2f}'
 
-print("VALOR A PAGAR: R$ {:.2f}" .format(result))
-
+print(result)
