@@ -30,40 +30,41 @@ if (N > 0 and N < 1000000):
     #Caculate note1
     N1 = N//1
     N = N - N1*1
-    N1 = float("%.2f" %N1)
-    N = float("%.2f" %N)
+    N1 = float(f'{N1:.2f}')
+    N = float(f'{N:.2f}')
+    #N050
     N050 = N//0.5
     N = N - N050*0.5
-    N050 = float("%.2f" %N050)
-    N = float("%.2f" %N)
+    N050 = float(f'{N050:.2f}')
+    N = float(f'{N:.2f}')
+    #N025
     N025 = N//0.25
     N = N - N025*0.25
-    N025 = float("%.2f" %N025)
-    N = float("%.2f" %N)
+    N025 = float(f'{N025:.2f}')
+    N = float(f'{N:.2f}')
     N010 = N//0.10
     N = N - N010*0.10
-    N010 = float("%.2f" %N010)
-    N = float("%.2f" %N)
+    N010 = float(f'{N10:.2f}')
+    N = float(f'{N:.2f}')
     N005 = N//0.05
     N = N - N005*0.05
-    N005 = float("%.2f" %N005)
-    N = float("%.2f" %N)
+    N005 = float(f'{N005:.2f}')
+    N = float(F'{N:.2f}')
     N001 = N*100
-    N001 = float("%.2f" %N001)
-    N = float("%.2f" %N)
+    N001 = float(f'{N001:.2f}')
+    N = float(f'{N:.2f}')
     #Caculate NOTAS
     print("NOTAS:")
-    print("{} nota(s) de R$ 100.00" .format(int(N100)))
-    print("{} nota(s) de R$ 50.00" .format(int(N50)))
-    print("{} nota(s) de R$ 20.00" .format(int(N20)))
-    print("{} nota(s) de R$ 10.00" .format(int(N10)))
-    print("{} nota(s) de R$ 5.00" .format(int(N5)))
-    print("{} nota(s) de R$ 2.00" .format(int(N2)))
+    print(f'{int(N100)} nota(s) de R$ 100.00')
+    print(f'{int(N50)} nota(s) de R$ 50.00')
+    print(f'{int(N20)} nota(s) de R$ 20.00')
+    print(f'{int(N10)} nota(s) de R$ 10.00')
+    print(f'{int(N5)} nota(s) de R$ 5.00')
+    print(f'{int(N2)} nota(s) de R$ 2.00')
     print("MOEDAS:")
-    print("{} moeda(s) de R$ 1.00" .format(int(N1)))
-    print("{} moeda(s) de R$ 0.50" .format(int(N050)))
-    print("{} moeda(s) de R$ 0.25" .format(int(N025)))
-    print("{} moeda(s) de R$ 0.10" .format(int(N010)))
-    print("{} moeda(s) de R$ 0.05" .format(int(N005)))
-    print("{} moeda(s) de R$ 0.01" .format(int(N001)))
-    
+    print(f'{int(N1)} moeda(s) de R$ 1.00')
+    print(f'{int(N050)} moeda(s) de R$ 0.50')
+    print(f'{int(N025)} moeda(s) de R$ 0.25')
+    print(f'{int(N010)} moeda(s) de R$ 0.10')
+    print(f'{int(N005)} moeda(s) de R$ 0.05')
+    print(f'{int(N001)} moeda(s) de R$ 0.01')
