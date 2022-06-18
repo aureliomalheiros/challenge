@@ -1,9 +1,6 @@
 name: 'Testing code'
 
 on:
-  push:
-    branches:
-    - main
   pull_request:
     branches:
     - main

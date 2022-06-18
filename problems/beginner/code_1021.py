@@ -3,7 +3,7 @@ Problem 1021 with python
 """
 N = float(input())
 
-if (N > 0 and N < 1000000):
+if 1000000 < N > 0:
 
     #Calculate Quotient 100
     N100    = N//100
