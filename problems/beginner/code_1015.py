@@ -1,3 +1,6 @@
+"""
+Problem 1015 with python
+"""
 import math
 line1 = input("")
 line2 = input("")
@@ -11,6 +14,6 @@ y1 = float(line_part1[1])
 x2 = float(line_part2[0])
 y2 = float(line_part2[1])
 
-result = math.sqrt((x2-x1)**2 + (y2-y1)**2)
-
-print("%0.4f" %result)
+operation = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+result = f'{operation}'
+print(result)

@@ -1,3 +1,6 @@
+"""
+Problem 1018 with python
+"""
 N = int(input())
 
 #Use seven variables N100, N50, N20, N10, N5, N2, N1
@@ -32,11 +35,10 @@ if (N > 0 and N < 1000000):
     #Calculate Quotient 1
     N1     = N//1
     N       = N - N1*1
-
-    print("{} nota(s) de R$ 100,00" .format(N100))
-    print("{} nota(s) de R$ 50,00" .format(N50))
-    print("{} nota(s) de R$ 20,00" .format(N20))
-    print("{} nota(s) de R$ 10,00" .format(N10))
-    print("{} nota(s) de R$ 5,00" .format(N5))
-    print("{} nota(s) de R$ 2,00" .format(N2))
-    print("{} nota(s) de R$ 1,00" .format(N1))
+    print(f'{N100} nota(s) de R$ 100,00')
+    print(f'{N50} nota(s) de R$ 50,00')
+    print(f'{N20} nota(s) de R$ 20,00')
+    print(f'{N10} nota(s) de R$ 10,00')
+    print(f'{N5} nota(s) de R$ 5,00')
+    print(f'{N2} nota(s) de R$ 2,00')
+    print(f'{N1} nota(s) de R$ 1,00')
