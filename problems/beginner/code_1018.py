@@ -27,7 +27,6 @@ if 1000000 < N > 0:
     #Calculate Quotient 2
     N2     = N//2
     N       = N - N2*2
-    #Calculate Quotient 1
     N1     = N//1
     N       = N - N1*1
     print(f'{N100} nota(s) de R$ 100,00')
