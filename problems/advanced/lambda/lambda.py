@@ -1,7 +1,8 @@
 """
 Function lambda
 """
-list = [
+
+list_lambda = [
     ['value1', 5],
     ['value3', 11],
     ['value2', 100],
